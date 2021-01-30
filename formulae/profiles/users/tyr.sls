@@ -3,10 +3,6 @@
 tyr:
   user.present:
     - groups: {{ groups_list }}
-    - require:
-      - group: tyr
-  group.present:
-    - name: tyr
 
 tyr sshkey fenrir:
   ssh_auth.present:

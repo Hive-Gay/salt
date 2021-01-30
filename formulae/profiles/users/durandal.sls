@@ -3,10 +3,6 @@
 durandal:
   user.present:
     - groups: {{ groups_list }}
-    - require:
-      - group: durandal
-  group.present:
-    - name: durandal
 
 durandal sshkey key-20201231:
   ssh_auth.present:
