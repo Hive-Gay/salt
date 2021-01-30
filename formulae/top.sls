@@ -2,7 +2,7 @@
 base:
   '*':
     - profiles.users.tyr
-    - profiles.users.ogredrew
+    - profiles.users.durandal
 
   'himbo.hive.gay':
     - profiles.asterisk.ca
