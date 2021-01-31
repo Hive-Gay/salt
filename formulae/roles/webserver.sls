@@ -1,0 +1,4 @@
+---
+include:
+  - profiles.software.nginx
+  

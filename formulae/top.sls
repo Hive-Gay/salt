@@ -1,9 +1,9 @@
 ---
 base:
   '*':
-    - profiles.users.tyr
-    - profiles.users.durandal
+    - roles.common
 
   'himbo.hive.gay':
     - profiles.asterisk.ca
     - roles.mailserver
+    - roles.webserver
